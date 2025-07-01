@@ -21,9 +21,9 @@ https://learn.microsoft.com/zh-tw/vcpkg/get_started/get-started?pivots=shell-pow
    cd vcpkg
    .\bootstrap-vcpkg.bat
    ```
-3. Set the VCPKG_ROOT environment variable to the path of your vcpkg directory.
+3. Set the `VCPKG_ROOT` environment variable to the path of your vcpkg directory.
 
-4. Add %VCPKG_ROOT% to your system PATH to make vcpkg accessible from any terminal.
+4. Add `%VCPKG_ROOT%` to your system PATH to make vcpkg accessible from any terminal.
 
 5. (Optional) Verify the installation by checking the vcpkg version:
    ```
