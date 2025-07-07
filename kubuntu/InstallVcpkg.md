@@ -44,7 +44,11 @@ cd vcpkg
 Add vcpkg to your PATH by modifying `.bashrc`:
 
 ```bash
-echo 'export PATH="$HOME/vcpkg:$PATH"' >> ~/.bashrc
+echo 'export VCPKG_ROOT="$HOME/vcpkg"' >> ~/.bashrc
+```
+
+```bash
+echo 'export PATH="$VCPKG_ROOT:$PATH"' >> ~/.bashrc
 ```
 
 Apply the change immediately:
