@@ -12,10 +12,10 @@ Visit the official LLVM release page:
 https://github.com/llvm/llvm-project/releases
 ```
 
-Download the desired version (e.g., LLVM 20.1.7):
+Download the desired version (e.g., LLVM 21.1.0):
 
 ```bash
-wget https://github.com/llvm/llvm-project/releases/download/llvmorg-20.1.7/LLVM-20.1.7-Linux-X64.tar.xz
+wget https://github.com/llvm/llvm-project/releases/download/llvmorg-21.1.0/LLVM-21.1.0-Linux-X64.tar.xz
 ```
 
 ---
@@ -23,7 +23,7 @@ wget https://github.com/llvm/llvm-project/releases/download/llvmorg-20.1.7/LLVM-
 ## Extract the Package
 
 ```bash
-tar Jxvf LLVM-20.1.7-Linux-X64.tar.xz
+tar Jxvf LLVM-21.1.0-Linux-X64.tar.xz
 ```
 
 ---
@@ -31,7 +31,7 @@ tar Jxvf LLVM-20.1.7-Linux-X64.tar.xz
 ## Move to /opt Directory
 
 ```bash
-sudo mv LLVM-20.1.7-Linux-X64 /opt/
+sudo mv LLVM-21.1.0-Linux-X64 /opt/
 ```
 
 ---
@@ -39,7 +39,7 @@ sudo mv LLVM-20.1.7-Linux-X64 /opt/
 ## Create Symbolic Links
 
 ```bash
-sudo ln -sf /opt/LLVM-20.1.7-Linux-X64/bin/* /usr/bin/
+sudo ln -sf /opt/LLVM-21.1.0-Linux-X64/bin/* /usr/bin/
 ```
 
 ---
