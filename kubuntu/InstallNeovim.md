@@ -6,47 +6,11 @@ This guide explains how to **manually install a specific version of Neovim** on 
 
 ## 1. Install Required Tools
 
-Update package index and install common dependencies:
-
-```bash
-sudo apt update
-sudo apt install -y curl git ripgrep lldb ninja-build
-```
+- Install Node.js
 
 ---
 
-## 2. Install Node.js
-
-Neovim plugins often require Node.js. Here’s how to install it.
-
-### 2.1 Install Prerequisites
-
-```bash
-sudo apt update
-sudo apt install -y curl
-```
-
-### 2.2 Download Setup Script
-
-```bash
-curl -fsSL https://deb.nodesource.com/setup_22.x | sudo bash -
-```
-
-### 2.3 Install Node.js
-
-```bash
-sudo apt install -y nodejs
-```
-
-### 2.4 Verify Installation (Optional)
-
-```bash
-node -v
-```
-
----
-
-## 3. Download Neovim
+## 2. Download Neovim
 
 Get the latest pre-built Neovim package:
 
@@ -56,7 +20,7 @@ curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim-linux-x8
 
 ---
 
-## 4. Remove Old Version
+## 3. Remove Old Version
 
 If you have a previous installation under `/opt/nvim`, remove it:
 
@@ -66,7 +30,7 @@ sudo rm -rf /opt/nvim
 
 ---
 
-## 5. Install New Version
+## 4. Install New Version
 
 Extract the downloaded archive to `/opt`:
 
@@ -76,9 +40,9 @@ sudo tar -C /opt -xzf nvim-linux-x86_64.tar.gz
 
 ---
 
-## 6. Configure Environment
+## 5. Configure Environment
 
-### 6.1 Add Neovim to PATH
+### 5.1 Add Neovim to PATH
 
 Edit your shell configuration file:
 
@@ -98,7 +62,7 @@ Reload the shell configuration:
 source ~/.bashrc
 ```
 
-### 6.2 Clipboard Support
+### 5.2 Clipboard Support
 
 Depending on your display server, install the appropriate package:
 
