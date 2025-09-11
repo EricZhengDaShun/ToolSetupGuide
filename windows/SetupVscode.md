@@ -114,11 +114,22 @@ on
 
 ## 8. Suggested C++ development extensions
 
+- C/C++
+    - "C_Cpp.intelliSenseEngine": "Disabled",
+    - "C_Cpp.errorSquiggles": "Disabled",
+    - "C_Cpp.formatting": "Disabled",
+
 - Clang-Format
 - clangd
 - CMake IntelliSence
 - CMake Tools
 - CodeLLDB
+- go
+- Pylance
+- Python
+- Python Debugger
+- Python Environments
+
 
 ---
 

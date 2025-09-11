@@ -119,6 +119,11 @@ on
 - CMake IntelliSence
 - CMake Tools
 - CodeLLDB
+- go
+- Pylance
+- Python
+- Python Debugger
+- Python Environments
 
 ---
 
